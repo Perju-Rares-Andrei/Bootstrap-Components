@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4.6 Badges as Indicators</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container"
+        style="height: 100vh; display: flex; align-items: center; justify-content: center; max-width: 800px;">
+        <div>
+            <a href="#" class="btn btn-secondary position-relative">
+                Profile
+                <span
+                    class="position-absolute top-0 start-100 translate-middle p-2 bg-success border border-light rounded-circle">
+                    <span class="sr-only">New alerts</span>
+                </span>
+            </a>
+            <a href="#" class="btn btn-primary position-relative">
+                Inbox
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill badge-danger">
+                    99+
+                    <span class="sr-only">unread messages</span>
+                </span>
+            </a>
+        </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

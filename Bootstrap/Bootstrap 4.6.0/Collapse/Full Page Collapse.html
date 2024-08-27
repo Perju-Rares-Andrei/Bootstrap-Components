@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4.6.0 Full Page Collapse</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container" style="height: 100vh; display: flex; align-items: center; justify-content: center;">
+        <div>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#fullPageCollapse"
+                aria-expanded="false" aria-controls="fullPageCollapse">
+                Toggle Full Page Collapse
+            </button>
+            <div class="collapse mt-3" id="fullPageCollapse">
+                <div class="card card-body">
+                    <h2>Full Page Collapse Content</h2>
+                    <p>
+                        This is the content that gets revealed when you click the button. It can contain any HTML
+                        elements
+                        you want.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

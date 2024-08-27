@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5.1.3 Scrollspy Simple Anchors</title>
+  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#scrollspyExample" data-bs-offset="50">
+  <div class="d-flex justify-content-center align-items-center mt-5">
+    <div style="width: 100%; max-width: 800px;">
+      <div class="row">
+        <div class="col-4">
+          <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+            <a class="p-1 rounded" href="#simple-list-item-1">Item 1</a>
+            <a class="p-1 rounded" href="#simple-list-item-2">Item 2</a>
+            <a class="p-1 rounded" href="#simple-list-item-3">Item 3</a>
+            <a class="p-1 rounded" href="#simple-list-item-4">Item 4</a>
+            <a class="p-1 rounded" href="#simple-list-item-5">Item 5</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
+            data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="simple-list-item-1">Item 1</h4>
+            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
+              some more example copy here to emphasize the scrolling and highlighting.</p>
+            <p>Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+              Multiple visible scrollspy targets at the same time may cause some issues.</p>
+            <h4 id="simple-list-item-2">Item 2</h4>
+            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
+              some more example copy here to emphasize the scrolling and highlighting.</p>
+            <p>Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+              Multiple visible scrollspy targets at the same time may cause some issues.</p>
+            <h4 id="simple-list-item-3">Item 3</h4>
+            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
+              some more example copy here to emphasize the scrolling and highlighting.</p>
+            <p>Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+              Multiple visible scrollspy targets at the same time may cause some issues.</p>
+            <h4 id="simple-list-item-4">Item 4</h4>
+            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
+              some more example copy here to emphasize the scrolling and highlighting.</p>
+            <p>Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+              Multiple visible scrollspy targets at the same time may cause some issues.</p>
+            <h4 id="simple-list-item-5">Item 5</h4>
+            <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the
+              appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding
+              some more example copy here to emphasize the scrolling and highlighting.</p>
+            <p>Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible.
+              Multiple visible scrollspy targets at the same time may cause some issues.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
